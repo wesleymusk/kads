@@ -47,22 +47,7 @@
 </head>
 <body>
   <div class="container">
-    <h2>Cadastro de Endereço Bitcoin</h2>
-    <p>Por favor, insira seu endereço Bitcoin para começar a receber pagamentos:</p>
-    <form id="bitcoinForm">
-      <label for="btcAddress">Endereço Bitcoin:</label>
-      <input type="text" id="btcAddress" name="btcAddress" required>
-
-      <button type="button" onclick="salvarEndereco()">Salvar</button>
-    </form>
+    <iframe src="https://ad2bitcoin.com/ad.php?ref=WesleyMusk&width=300" marginwidth="0" marginheight="0" width="300" height="250" scrolling="no" border="0" frameborder="0"></iframe>
   </div>
-
-  <script>
-    function salvarEndereco() {
-      var btcAddress = document.getElementById('btcAddress').value;
-      document.cookie = `btcAddress=${btcAddress}; expires=Sat, 1 Jan 2049 12:00:00 UTC; path=/`;
-      alert('Endereço Bitcoin salvo com sucesso!');
-    }
-  </script>
 </body>
 </html>
